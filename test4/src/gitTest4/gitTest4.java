@@ -96,7 +96,6 @@ public class gitTest4 {
 		System.out.println("HELLO GITHUB!!!!");
 		System.out.println("HELLO GITHUB!!!!");
 		System.out.println("HELLO GITHUB!!!!");
-		System.out.println("HELLO GITHUB!!!!");
 	}
 
 }
