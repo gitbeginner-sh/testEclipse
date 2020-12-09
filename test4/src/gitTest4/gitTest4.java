@@ -12,6 +12,7 @@ public class gitTest4{
 
 	static JButton button;
 	public static void main(String[] args) {
+		System.out.println("aaa");
 		JFrame frame = new JFrame("Hello Git");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setLocationRelativeTo(null);
