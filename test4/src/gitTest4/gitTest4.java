@@ -10,6 +10,7 @@ import javax.swing.JPanel;
 
 public class gitTest4{
 
+	static JButton button;
 	public static void main(String[] args) {
 		JFrame frame = new JFrame("Hello Git");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -17,7 +18,7 @@ public class gitTest4{
 		frame.setSize(300,200);
 		Container contentsPane = frame.getContentPane();
 		JPanel panel = new JPanel();
-		JButton button = new JButton("にゃあ");
+		button = new JButton("にゃあ");
 		button.addActionListener(a);
 		panel.add(button);
 		contentsPane.add(panel);
@@ -30,6 +31,7 @@ public class gitTest4{
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			System.out.println("🐈");
+			button.setText("にゃにゃ！？");
 		}
 	};
 }
